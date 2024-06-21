@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cont {
+    background-color: rgb(244, 248, 252);
+    height: 100vh;
+    width: 100vw;
+}
+.box {
+    font-family: sans-serif;
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 2px 10px 10px grey;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}
+.heading {
+    font-size: 25px;
+    color: rgb(5, 5, 185);
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.logo {
+    font-size: 25px;
+    color: white;
+    box-sizing: border-box;
+    height: 25px;
+    width: 25px;
+    padding: 1px 1.5px;
+    background-color: rgb(5, 5, 185);
+    border-radius: 2px;
+    position: absolute;
+    top: 20px;
+    left: 91.5px;
+}
+h1 {
+    font-size: 30px;
+    color: black;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+h4 {
+    font-size: 13px;
+    color: black;
+    position: absolute;
+    top: 98px;
+    left: 10px;
+}
+.email {
+    padding: 0px 7px;
+    height: 35px;
+    width: 280px;
+    box-sizing: border-box;
+    border: 0.8px rgb(70, 70, 70) solid;
+    border-radius: 2px;
+    position: absolute;
+    top: 140px;
+    left: 10px;
+}
+.password {
+    padding: 0px 7px;
+    height: 35px;
+    width: 280px;
+    box-sizing: border-box;
+    border: 0.8px rgb(70, 70, 70) solid;
+    border-radius: 2px;
+    position: absolute;
+    top: 185px;
+    left: 10px;
+}
+.forgot {
+    color: rgb(5, 5, 185);
+    font-size: 15px;
+    position: absolute;
+    top: 260px;
+    left: 10px;
+}
+#btn {
+    padding: 8.5px 110px;
+    height: 35px;
+    width: 280px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(5, 5, 185);
+    box-sizing: border-box;
+    border: none;
+    border-radius: 20px;
+    position: absolute;
+    top: 300px;
+    left: 10px;
+}
+.fa-linkedin {
+    font-size: 30px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.last {
+    color: rgb(5, 5, 185);
+    font-size: 15px;
+    position: absolute;
+    top:350px;
+    left: 10px;
+}
+.forgot:hover{
+    cursor: pointer;
+}
+.last:hover{
+    cursor: pointer;
+}
+#btn:hover{
+    color: aliceblue;
+    cursor: pointer;
+    background-color: #0205a0;
+}
